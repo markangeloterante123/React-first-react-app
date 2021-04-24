@@ -1,0 +1,26 @@
+html, body {
+    margin: none;
+    padding:none;
+}
+
+.root {
+    height: 100vh;
+}
+.app-main {
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.app-main .card-main {
+    border: 1px black solid;
+    border-radius: 5%;
+    height: 200px;
+    width: 200px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
